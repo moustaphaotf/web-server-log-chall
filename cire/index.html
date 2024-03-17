@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de Vote</title>
+    <link rel="stylesheet" href="styles1.css">
+  
+</head>
+<body>
+    <div class="presentation">
+        <h1><span id="s1">W</span><span id="s2">W</span><span id="s3">Fame</span></h1>
+        <p>Nous avons lancé le vote pour la personnalité la plus influente de l'année 2024. </p>
+        <p>Parmi une centaine de personnalités, après la délibération de notre jury, il sont sortis du lot ! Désormais, vos seules voix comptes.</p>
+        <p>Donnez de la force à la personnalité dont vous pensez mériter l'oscar de l'année de la personnalité la plus influente en 2024</p>
+        <p><b>Les nominés</b></p>
+    </div>
+    <div class="bp">
+        <div class="b1">
+            <img src="img/1.jpg" alt="">
+            <p><b>Clara</b></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto impedit cupiditate ea dignissimos libero sit itaque doloribus veritatis assumenda nihil? Saepe, assumenda ipsum eveniet odio minima deleniti distinctio a similique.</p>
+
+        </div>
+        <div class="b2">
+            <img src="img/3.jpg" alt="">
+            <p><b>David</b></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse a earum ex necessitatibus? Deserunt fugiat modi ducimus tempora, neque ad ut explicabo. Quae, culpa libero aliquid a animi quam ex?</p>
+
+        </div>
+        <div class="b3">
+            <img src="img/4.jpg" alt="">
+            <p><b>Jessica</b></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident tempora velit mollitia perspiciatis illum, sed laborum hic vel eaque. Aperiam expedita sapiente ullam, labore repellat dignissimos nemo voluptatum dolorem ipsa!</p>
+
+        </div>
+        <div class="b4">
+            <img src="img/5.jpg" alt="">
+            <p><b>Oliver</b></p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus nesciunt veniam, unde quaerat inventore iusto. Harum, soluta aspernatur mollitia ipsum ratione, molestiae, iste maxime eos delectus facilis adipisci commodi omnis?</p>
+
+
+        </div>
+        <div class="b5">
+            <img src="img/6.jpg" alt="">
+            <p><b>Summer</b></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sit numquam sed id deleniti itaque nostrum nobis fugiat porro sapiente. Veritatis sint corrupti enim sequi! Eos ducimus amet voluptatem quaerat.</p>
+
+
+        </div>
+        <div class="b6">
+            <img src="img/7.jpg" alt="">
+            <p><b>Harvey</b></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ad rerum soluta sed eius nisi. Sed eos, harum dolore inventore quisquam, tenetur ad odio cum autem porro provident molestias? Similique?</p>
+
+        </div>
+    </div>
+
+    
+        <a  id="btn" href="visits.html">Voir l'Historique des Visites</a>
+
+   
+   <script>
+       function visit_rcd(){
+           var xhr = new XMLHttpRequest();
+           xhr.open('GET','scripts.php',true);
+           xhr.send();
+       }
+
+       window.onload = function(){
+           visit_rcd();
+       }
+   </script>
+
+</body>
+</html>

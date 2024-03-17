@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historiques</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>L'Historiques des visites
+    </h1>
+    <table id="fileContentTable" >
+        <thead>
+            <tr>
+                <th>IP</th>
+                <th>Nombre de visites</th>
+                <th>Dernière visite</th>
+            </tr>
+        </thead>
+        <tbody id="fileContentBody">
+            <!-- Les données seront ajoutées ici par JavaScript -->
+        </tbody>
+    </table>
+
+    <script>
+        // Fonction pour charger les données depuis le fichier PHP
+        fetch('scripts2.php')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Impossible de charger les données');
+                }
+                return response.json();
+            })
+            .then(data => {
+                const tableBody = document.getElementById('fileContentBody');
+                data.forEach(entry => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${entry.ip}</td>
+                        <td>${entry.count}</td>
+                        <td>${entry.last_visit}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            })
+            .catch(error => {
+                console.error('Une erreur s\'est produite lors du chargement des données :', error);
+            });
+    </script>
+</body>
+</html>

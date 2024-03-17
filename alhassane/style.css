@@ -1,0 +1,181 @@
+#pied_de_page{
+    text-align: center;
+    border-top: 1.2px solid #181818;
+    border-radius: 15px;
+    height: 5em;
+    box-shadow: 3px 3px 0px rgba(65, 76, 199, 0.9);
+}
+#en_tete{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 3px solid black;
+    background-color: white;
+    border-radius: 15px;
+   box-shadow: 3px 3px 0px rgba(65, 76, 199, 0.9);
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: rgba(65, 76, 199, 0.9);
+    font-weight: bold;
+    
+}
+a:visited{
+    color: rgba(65, 76, 199, 0.9);
+}
+a:hover{
+    background-color:rgba(211, 215, 250, 0.9) ;
+}
+a:focus{
+    background-color:rgba(65, 76, 199, 0.9) ;
+}
+#slogan{
+    margin-left: 200px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+#slogan2{
+    margin-left: 105px;
+    font-weight: bold;
+
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+img{
+    border-radius: 10px;
+    margin-right: -440px;
+    width: 92px;
+    height: 60px;
+}
+#pied_de_page{
+    text-align: center;
+    position: relative;
+}
+/* ****************** Corps du site ********************** */
+.point_interro{
+    width: 45px;
+   padding-bottom: -900px;
+   height: 40px;
+}
+.texte1{
+    clear: both;
+    margin-bottom: -30px;
+}
+.image{
+    font-size: large;
+    margin-bottom: -20px;
+}
+.question{
+    margin-left: 30px;
+    color: rgba(65, 76, 199, 0.9);
+}
+@font-face {
+    font-family: 'ma_police';
+  /*  <!-- src: url(police/SourceCodePro-Medium.otf); _->*/
+    src: url(police/noto-sans.zip);
+}
+#ma_page{
+    width: 100%;
+    height: auto;
+   font-family: ma_police;
+    font-size: 1.1em;
+    font-weight: none;
+      
+}
+
+#conclusion{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#titre{
+    text-align: center;
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+    padding-top: 20px;
+    margin-bottom: -20px;
+    color: rgba(65, 76, 199, 0.9);
+   
+
+}
+.form{
+    text-align: center;
+   text-decoration: underline;
+}
+#mon_forumlaire{
+    font-family: ma_police;
+    font-size: 1.1em;
+    width: 100%;
+    height: auto;
+}
+fieldset{
+    color: #181818;
+    width: 50em;
+    height: 5em;
+    padding-top: 30px;
+    padding-bottom: -30px;
+    margin-top: 50px;
+    margin-left: 20em;
+    
+}
+.form_p{
+    text-align: center;
+}
+#mot_de_passe {
+    text-align: center;
+}
+#mot_de_passe:hover{
+    border:2px dashed rgb(158, 158, 248);
+}
+form{
+    text-align: center;
+    margin-bottom: 180px;
+}
+#button{
+    color: white;
+    margin-left: 10px;
+    background-color: rgb(89, 89, 250);
+    font-weight: bold;
+    border: 2px solid white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 6px 6px;
+}
+#button:hover{
+    background-color: aqua ;
+}
+#button:focus{
+    background-color: rgb(66, 66, 253);
+}
+#mon_script{
+    margin-bottom: 330px;
+    text-decoration: underline;
+}
+.image_union{
+    margin-bottom: -10px;
+    width: 50px;
+}
+.image_relaxe{
+    margin-bottom: -10px;
+    width: 30px;
+    height: 40px;
+}
+#auteur{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

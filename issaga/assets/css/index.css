@@ -1,0 +1,1106 @@
+#Titre .cara1:nth-child(1){
+    color: rgb(136, 9, 136);
+}
+#Titre .cara2:nth-child(2){
+    color: orange;
+}
+#Titre .chaine:nth-child(3){
+    color: rgb(141, 232, 50);
+}
+
+/* Pour Creer un conteneur flexible*/
+#LesCandidats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+
+/* Pour le candidat1 */
+#LesCandidats #candidat1 {
+    width: 330px;
+    box-shadow: 1px 1px 12px 2px rgb(237, 231, 231);
+}
+#LesCandidats #candidat1 .ImagesMané {
+    width: 319px;
+    height: 180px;
+    border: solid violet;
+    margin-left: 0.5px;
+    margin-top: 4px;
+    margin-right: 2.5px;
+}
+#LesCandidats #candidat1 .Button .ButtonValidVote {
+    border: solid cadetblue;
+    border-radius: 15px;
+    background-color: cadetblue;
+    width: 235px;
+    padding: 5px 5px;
+    margin-bottom: 3px;    
+}
+#LesCandidats #candidat1 .Button .ButtonValidVote:hover{
+    cursor: pointer;
+    background-color: rgb(3, 69, 69);
+    color: white;
+    border-color: rgb(3, 69, 69);
+}
+#LesCandidats #candidat1 .NomCandidat{
+    text-align: center;
+}
+#candidat1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#LesCandidats #candidat1 .P1{
+    margin-top: -2px;
+}
+#LesCandidats #candidat1 .P2{
+    margin-top: -14px;
+}
+#LesCandidats #candidat1 .P3{
+    margin-top: -14px;
+    margin-left: 10px;
+}
+#LesCandidats #candidat1 .P4{
+    margin-top: -14px;
+    margin-left: -10px;
+}
+#LesCandidats #candidat1 .P5{
+    margin-top: -14px;
+}
+
+/*Pour le candidat 2*/
+
+#LesCandidats #candidat2 {
+    width: 330px;
+    box-shadow: 1px 1px 12px 2px rgb(237, 231, 231);
+}
+#LesCandidats #candidat2 .ImagesMBappe {
+    width: 319px;
+    height: 180px;
+    border: solid violet;
+    margin-left: 0.5px;
+    margin-top: 4px;
+    margin-right: 2.5px;
+}
+#LesCandidats #candidat2 .Button .ButtonValidVote {
+    border: solid cadetblue;
+    border-radius: 15px;
+    background-color: cadetblue;
+    width: 235px;
+    padding: 5px 5px;
+    margin-bottom: 3px;
+    
+}
+#LesCandidats #candidat2 .Button .ButtonValidVote:hover{
+    cursor: pointer;
+    background-color: rgb(3, 69, 69);
+    color: white;
+    border-color: rgb(3, 69, 69);
+}
+#LesCandidats #candidat2 .NomCandidat{
+    text-align: center;
+}
+
+#candidat2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#LesCandidats #candidat2 .P1{
+    margin-top: -2px;
+}
+#LesCandidats #candidat2 .P2{
+    margin-top: -14px;
+}
+#LesCandidats #candidat2 .P3{
+    margin-top: -14px;
+    margin-left: 10px;
+}
+#LesCandidats #candidat2 .P4{
+    margin-top: -14px;
+    margin-left: -10px;
+}
+#LesCandidats #candidat2 .P5{
+    margin-top: -14px;
+}
+
+/* Pour le candidat 3 */
+
+#LesCandidats #candidat3 {
+    width: 330px;
+    box-shadow: 1px 1px 12px 2px rgb(237, 231, 231);
+    padding-left: 3px;
+}
+#LesCandidats #candidat3 .ImagesMessi {
+    width: 319px;
+    height: 180px;
+    border: solid violet;
+    margin-left: 0.5px;
+    margin-top: 4px;
+    margin-right: 2.5px;
+}
+#LesCandidats #candidat3 .Button .ButtonValidVote {
+    border: solid cadetblue;
+    border-radius: 15px;
+    background-color: cadetblue;
+    width: 235px;
+    padding: 5px 5px;
+    margin-bottom: 3px;
+    
+}
+#LesCandidats #candidat3 .Button .ButtonValidVote:hover{
+    cursor: pointer;
+    background-color: rgb(3, 69, 69);
+    color: white;
+    border-color: rgb(3, 69, 69);
+}
+#LesCandidats #candidat3 .NomCandidat{
+    text-align: center;
+}
+#candidat3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#LesCandidats #candidat3 .P1{
+    margin-top: -2px;
+}
+#LesCandidats #candidat3 .P2{
+    margin-top: -14px;
+}
+#LesCandidats #candidat3 .P3{
+    margin-top: -14px;
+    margin-left: 10px;
+}
+#LesCandidats #candidat3 .P4{
+    margin-top: -14px;
+    margin-left: -10px;
+}
+#LesCandidats #candidat3 .P5{
+    margin-top: -14px;
+}
+
+/* Pour le candidat 4 */
+
+#LesCandidats #candidat4 {
+    width: 330px;
+    box-shadow: 1px 1px 12px 2px rgb(237, 231, 231);
+}
+#LesCandidats #candidat4 .ImagesNeymar {
+    width: 319px;
+    height: 180px;
+    border: solid violet;
+    margin-left: 0.5px;
+    margin-top: 4px;
+    margin-right: 2.5px;
+}
+#LesCandidats #candidat4 .Button .ButtonValidVote {
+    border: solid cadetblue;
+    border-radius: 15px;
+    background-color: cadetblue;
+    width: 235px;
+    padding: 5px 5px;
+    margin-bottom: 3px; 
+}
+#LesCandidats #candidat4 .Button .ButtonValidVote:hover{
+    cursor: pointer;
+    background-color: rgb(3, 69, 69);
+    color: white;
+    border-color: rgb(3, 69, 69);
+}
+#LesCandidats #candidat4 .NomCandidat{
+    text-align: center;
+}
+
+#candidat4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#LesCandidats #candidat4 .P1{
+    margin-top: -2px;
+}
+#LesCandidats #candidat4 .P2{
+    margin-top: -14px;
+}
+#LesCandidats #candidat4 .P3{
+    margin-top: -14px;
+    margin-left: 10px;
+}
+#LesCandidats #candidat4 .P4{
+    margin-top: -14px;
+    margin-left: -10px;
+}
+#LesCandidats #candidat4 .P5{
+    margin-top: -14px;
+}
+
+/* Pour le candidat 5 */
+
+#LesCandidats #candidat5 {
+    width: 330px;
+    box-shadow: 1px 1px 12px 2px rgb(237, 231, 231);
+    padding-left: 3px;
+}
+#LesCandidats #candidat5 .ImagesRonaldo {
+    width: 319px;
+    height: 180px;
+    border: solid violet;
+    margin-left: 0.5px;
+    margin-top: 4px;
+    margin-right: 2.5px;
+}
+#LesCandidats #candidat5 .Button .ButtonValidVote {
+    border: solid cadetblue;
+    border-radius: 15px;
+    background-color: cadetblue;
+    width: 235px;
+    padding: 5px 5px;
+    margin-bottom: 3px; 
+}
+#LesCandidats #candidat5 .Button .ButtonValidVote:hover{
+    cursor: pointer;
+    background-color: rgb(3, 69, 69);
+    color: white;
+    border-color: rgb(3, 69, 69);
+}
+#LesCandidats #candidat5 .Button .ButtonValideVotre:hover{
+    cursor: pointer;
+}
+#LesCandidats #candidat5 .NomCandidat{
+    text-align: center;
+}
+
+#candidat5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#LesCandidats #candidat5 .P1{
+    margin-top: -2px;
+}
+#LesCandidats #candidat5 .P2{
+    margin-top: -14px;
+}
+#LesCandidats #candidat5 .P3{
+    margin-top: -14px;
+    margin-left: 10px;
+}
+#LesCandidats #candidat5 .P4{
+    margin-top: -14px;
+    margin-left: -10px;
+}
+#LesCandidats #candidat5 .P5{
+    margin-top: -14px;
+}
+
+/* Pour le candidat 6 */
+
+#LesCandidats #candidat6 {
+    width: 330px;
+    box-shadow: 1px 1px 12px 2px rgb(237, 231, 231);
+    /*padding-left: 3px;
+    margin-left: 30px;
+    margin-top: 30px;*/
+}
+#LesCandidats #candidat6 .ImagesLewandowski {
+    width: 319px;
+    height: 180px;
+    border: solid violet;
+    margin-left: 0.5px;
+    margin-top: 4px;
+    margin-right: 2.5px;
+}
+#LesCandidats #candidat6 .Button .ButtonValidVote {
+    border: solid cadetblue;
+    border-radius: 15px;
+    background-color: cadetblue;
+    width: 235px;
+    padding: 5px 5px;
+    margin-bottom: 3px;  
+}
+#LesCandidats #candidat6 .Button .ButtonValidVote:hover{
+    cursor: pointer;
+    background-color: rgb(3, 69, 69);
+    color: white;
+    border-color: rgb(3, 69, 69);
+}
+#LesCandidats #candidat6 .NomCandidat{
+    text-align: center;
+}
+
+#candidat6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#LesCandidats #candidat6 .P1{
+    margin-top: -2px;
+}
+#LesCandidats #candidat6 .P2{
+    margin-top: -14px;
+}
+#LesCandidats #candidat6 .P3{
+    margin-top: -14px;
+    margin-left: 10px;
+}
+#LesCandidats #candidat6 .P4{
+    margin-top: -14px;
+    margin-left: -10px;
+}
+#LesCandidats #candidat6 .P5{
+    margin-top: -14px;
+}
+
+#PageVote .ImagesMBappe{
+    width: 360px;
+    margin-top: 50px;
+}
+#PageVote {
+    text-align: center;
+}
+#PageVote h3{
+    color: coral;
+}
+#PageVote .P1{
+    margin-top: -2px;
+}
+#PageVote .P2{
+    margin-top: -14px;
+}
+#PageVote .P3{
+    margin-top: -14px;
+    margin-left: 10px;
+}
+#PageVote .P4{
+    margin-top: -14px;
+    margin-left: -10px;
+}
+#PageVote .P5{
+    margin-top: -14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
